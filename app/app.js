@@ -1,15 +1,15 @@
-function initListeners() {
-    $(".bars").click(function (e) {
-        $("bars").toggleClass("active");
-        $(".links").toggleClass("active");
-    });
+function changeRoute() {
+    let hashTag = window.location.hash;
+    let pageID = hashTag.replace("#", "");
 
-    $(".links a").click(function (e) {
-        $(".bars").toggleClass("active");
-        $(".links").toggleClass("active");
-    });
+MODEL.updateView(pageID)
+}
+
+function initURLListener(){
+    $(window).on("hashchange", changeRoute);
+    changeRoute();
 }
 
 $(document).ready(function() {
-    initListeners()
+    initURLListener();
 });

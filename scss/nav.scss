@@ -4,9 +4,10 @@ nav {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	opacity: .5;
 
 	.client-name {
-		font-family: Ayuthaya;
+		font-family: font1;
 		font-size: 60px;
 		color: #000;
 	}
@@ -23,7 +24,7 @@ nav {
 		align-items: center;
 		a {
 			text-decoration: none;
-			font-family: Ayuthaya;
+			font-family: font1;
 			font-size: 30px;
 			color: #000;
 		}
