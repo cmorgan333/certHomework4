@@ -122,3 +122,23 @@ nav .links a {
   font-family: font1;
   font-size: 20px;
 }
+
+footer {
+  background-color: #cac386;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+  margin-top: 100px;
+  font-family: font1;
+  opacity: 0.5;
+}
+footer .footer-address {
+  font-size: 20px;
+}
+footer .footer-name {
+  font-size: 60px;
+}
+footer .footer-email {
+  font-size: 20px;
+}
