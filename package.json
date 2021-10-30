@@ -1,0 +1,22 @@
+{
+  "name": "certhomework4",
+  "version": "1.0.0",
+  "description": "certhomework4",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "serve": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmorgan333/certHomework4.git"
+  },
+  "author": "Carrie Powell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cmorgan333/certHomework4/issues"
+  },
+  "homepage": "https://github.com/cmorgan333/certHomework4#readme"
+}
