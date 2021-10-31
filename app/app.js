@@ -1,15 +1,3 @@
-// function changeRoute() {
-//     let hashTag = window.location.hash;
-//     let pageID = hashTag.replace("#", "");
-
-// MODEL.updateView(pageID)
-// }
-
-// function initURLListener() {
-//     $(window).on("hashchange", changeRoute);
-//     changeRoute();
-// }
-
 function initListeners() {
     $("#create").click(function (e) {
         e.preventDefault();
@@ -27,9 +15,21 @@ function initListeners() {
 
    console.log("inputs " + firstName + " " + email + " " + hobby1 + " " + hobby2 + " " + hobby3 + 
    " " + " " + game1 + " " + game2 + " " + game3 + " " + book1 + " " + book2);
-
     });
-}
+
+        $("#edit").click(function (e) {
+            e.preventDefault();
+
+            let userObj = {
+                editfName: "Carrie",
+                lName: "Powell",
+                editEmail: "cmorgan333@gmail.com",
+                color: "purple"
+            };
+            console.log(userObj);
+          
+        });
+    }
 
 
 
