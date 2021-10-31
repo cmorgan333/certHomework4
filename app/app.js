@@ -5,22 +5,21 @@ function changeRoute() {
 MODEL.updateView(pageID)
 }
 
-
-
-function initURLListener(){
+function initURLListener() {
     $(window).on("hashchange", changeRoute);
     changeRoute();
 }
 
 function initListeners() {
-    $("#submit").click(function (e) {
+    $("#create").click(function (e) {
         e.preventDefault();
-        console.log("hi");
+
+        let firstName = $("#fName").val();
+        console.log("firstName " + firstName);
     });
 }
 
 $(document).ready(function() {
     initURLListener();
-    initListeners();
-    
+    initListeners(); 
 });

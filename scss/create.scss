@@ -23,27 +23,34 @@ h1 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 100px auto 200px auto;
+	// margin: 100px auto 200px auto;
+	margin: 0 auto;
 
-	form {
+	.field {
 		width: 800px;
-		min-height: 200px;
+		// margin: 50px auto;
+		display: block;
 		background-color: #ccc9c1;
-		border-radius: 18px;
 		margin-top: 50px;
 		margin-bottom: 50px;
-		display: block;
-		padding-bottom: 150px;
+		border-radius: 18px;
 
-		.field {
+		form {
 			width: 600px;
-			margin: 50px auto;
+			min-height: 200px;
+			background-color: #ccc9c1;
+			border-radius: 18px;
+			margin-top: 50px;
+			margin-bottom: 50px;
 			display: block;
+			padding-bottom: 150px;
+			margin: 50px auto 0 auto;
 
 			label {
 				font-family: font1;
 				font-size: 16px;
 				color: #000;
+				padding-top: 30px;
 			}
 
 			input {
@@ -53,25 +60,30 @@ h1 {
 				background-color: #e4e1dd;
 				border: none;
 				border-radius: 10px;
+				margin-bottom: 50px;
+			}
+
+			#create {
+				width: 250px;
+				height: 100px;
+				background-color: #e37d7b;
+				border-radius: 18px;
+				font-family: font1;
+				font-size: 40px;
+				color: white;
+				// margin: 50px auto;
+				margin-left: 150px;
+				// margin-top: 50px;
+				border: 5px #ccc9c1 solid;
 			}
 		}
-		#create {
-			width: 250px;
-			height: 100px;
-			background-color: #e37d7b;
-			border-radius: 18px;
-			font-family: font1;
-			font-size: 40px;
-			color: white;
-			margin-left: 250px;
-			margin-top: 50px;
-			border: 5px #ccc9c1 solid;
-		}
-		.question {
-			font-family: font1;
-			font-size: 16px;
-			color: #000;
-			margin-left: 100px;
-		}
 	}
+}
+
+.question {
+	font-family: font1;
+	font-size: 16px;
+	color: #000;
+	margin-left: 100px;
+	margin-bottom: 20px;
 }

@@ -148,10 +148,18 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 100px auto 200px auto;
+  margin: 0 auto;
 }
-.form-background form {
+.form-background .field {
   width: 800px;
+  display: block;
+  background-color: #ccc9c1;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 18px;
+}
+.form-background .field form {
+  width: 600px;
   min-height: 200px;
   background-color: #ccc9c1;
   border-radius: 18px;
@@ -159,26 +167,24 @@ h1 {
   margin-bottom: 50px;
   display: block;
   padding-bottom: 150px;
+  margin: 50px auto 0 auto;
 }
-.form-background form .field {
-  width: 600px;
-  margin: 50px auto;
-  display: block;
-}
-.form-background form .field label {
+.form-background .field form label {
   font-family: font1;
   font-size: 16px;
   color: #000;
+  padding-top: 30px;
 }
-.form-background form .field input {
+.form-background .field form input {
   width: 600px;
   height: 60px;
   margin-top: 10px;
   background-color: #e4e1dd;
   border: none;
   border-radius: 10px;
+  margin-bottom: 50px;
 }
-.form-background form #create {
+.form-background .field form #create {
   width: 250px;
   height: 100px;
   background-color: #e37d7b;
@@ -186,15 +192,16 @@ h1 {
   font-family: font1;
   font-size: 40px;
   color: white;
-  margin-left: 250px;
-  margin-top: 50px;
+  margin-left: 150px;
   border: 5px #ccc9c1 solid;
 }
-.form-background form .question {
+
+.question {
   font-family: font1;
   font-size: 16px;
   color: #000;
   margin-left: 100px;
+  margin-bottom: 20px;
 }
 
 .edit-form {
