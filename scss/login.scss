@@ -1,5 +1,5 @@
 .login-hero {
-	min-height: 1000px;
+	min-height: 1500px;
 	background-image: url(../images/login-form.png);
 	background-position: center;
 	background-size: cover;
@@ -109,6 +109,21 @@
 				font-size: 40px;
 				color: white;
 				margin-left: 125px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1300px) {
+	.login-hero {
+		display: block;
+		.cassette-container {
+			display: block;
+			.login-container {
+				margin: 50px auto;
+			}
+			.create-container {
+				margin: 0 auto 50px auto;
 			}
 		}
 	}

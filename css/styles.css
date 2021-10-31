@@ -250,7 +250,7 @@ h1 {
 }
 
 .login-hero {
-  min-height: 1000px;
+  min-height: 1500px;
   background-image: url(../images/login-form.png);
   background-position: center;
   background-size: cover;
@@ -355,6 +355,20 @@ h1 {
   margin-left: 125px;
 }
 
+@media screen and (max-width: 1300px) {
+  .login-hero {
+    display: block;
+  }
+  .login-hero .cassette-container {
+    display: block;
+  }
+  .login-hero .cassette-container .login-container {
+    margin: 50px auto;
+  }
+  .login-hero .cassette-container .create-container {
+    margin: 0 auto 50px auto;
+  }
+}
 footer {
   background-color: #cac386;
   display: flex;
