@@ -238,6 +238,112 @@ h1 {
   margin-top: 100px;
 }
 
+.login-hero {
+  min-height: 1000px;
+  background-image: url(../images/login-form.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.login-hero .cassette-container {
+  width: 1025px;
+  min-height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.login-hero .cassette-container .login-container {
+  width: 475px;
+  min-height: 200px;
+  background-color: #b7c5c8;
+  opacity: 0.92;
+  border-radius: 23px;
+  border: 3px #707070 solid;
+}
+.login-hero .cassette-container .login-container .login {
+  margin-top: 20px;
+  margin-left: 150px;
+}
+.login-hero .cassette-container .login-container .login-info {
+  width: 300px;
+  min-height: 200px;
+  margin: 0 auto;
+}
+.login-hero .cassette-container .login-container .login-field {
+  width: 300px;
+  display: block;
+}
+.login-hero .cassette-container .login-container label {
+  font-family: font1;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.login-hero .cassette-container .login-container input {
+  width: 300px;
+  height: 60px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+.login-hero .cassette-container .login-container #submit1 {
+  width: 200px;
+  height: 80px;
+  background-color: #717f80;
+  font-family: font1;
+  font-size: 40px;
+  color: white;
+  margin-left: 125px;
+}
+.login-hero .cassette-container .create-container {
+  width: 475px;
+  height: 1000px;
+  background-color: #c9c1c1;
+  opacity: 0.9;
+  border-radius: 23px;
+  border: 3px #707070 solid;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.login-hero .cassette-container .create-container .create-account {
+  margin-top: 20px;
+  margin-left: 60px;
+}
+.login-hero .cassette-container .create-container .create-info {
+  width: 300px;
+  min-height: 200px;
+  margin: 0 auto;
+}
+.login-hero .cassette-container .create-container .create-field {
+  width: 300px;
+  display: block;
+}
+.login-hero .cassette-container .create-container label {
+  font-family: font1;
+  font-size: 16px;
+}
+.login-hero .cassette-container .create-container input {
+  width: 300px;
+  height: 60px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.login-hero .cassette-container .create-container #submit2 {
+  width: 200px;
+  height: 80px;
+  background-color: #a58b90;
+  font-family: font1;
+  font-size: 40px;
+  color: white;
+  margin-left: 125px;
+}
+
 footer {
   background-color: #cac386;
   display: flex;
