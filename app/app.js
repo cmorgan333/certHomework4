@@ -17,14 +17,21 @@ function initListeners() {
    " " + " " + game1 + " " + game2 + " " + game3 + " " + book1 + " " + book2);
     });
 
+    $("#submit1").click(function(e) {
+        e.preventDefault();
+        let userName = $("#username").val();
+
+        console.log("inputs " + userName);
+    });
+
         $("#edit").click(function (e) {
             e.preventDefault();
 
             let userObj = {
-                editfName: "Carrie",
+                firstName: "Carrie",
                 lName: "Powell",
-                editEmail: "cmorgan333@gmail.com",
-                color: "purple"
+                email1: "cmorgan333@gmail.com",
+                color: "purple",
             };
             console.log(userObj);
           

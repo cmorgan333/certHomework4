@@ -214,6 +214,9 @@ h1 {
 }
 .edit-field form {
   width: 600px;
+  min-height: 200px;
+  background-color: #cac386;
+  border-radius: 18px;
   margin: 25px auto;
   padding-top: 50px;
   display: block;
